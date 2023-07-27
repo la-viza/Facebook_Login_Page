@@ -1,0 +1,125 @@
+body {
+    background:#f0f2f5;
+}
+.container_main {
+    display: flex;   
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+.col_left {
+    flex: 1;
+    padding-right:42px;
+}
+
+.col_right {
+    flex:1;
+}
+
+.img_logo {
+    width: 300px;
+    margin-left:-23px;
+}
+
+.col_left_content {
+    margin: 201px 0 50px 497px
+  
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.inside_right {
+text-align: center; 
+background-color: #fff;
+border: none;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+box-sizing: border-box;
+margin:157px 650px 50px 20px;
+padding: 20px 0 28px;
+    padding-top: 20px;
+    padding-bottom: 28px;
+width: 396px;
+}
+
+input {
+    width: 88%;
+    padding: 13px;
+    margin: 10px 0;
+    font-size: 15px;
+    color:grey;
+    border-radius: 5px;
+    border: 0.5px solid lightgray;
+}
+
+hr {
+    width: 92%;
+    color:#dddfe2;
+    border:0.5 solid lightgray;
+}
+
+.button_primary {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    margin: 10px 0 15px;
+    width: 95%;
+}
+
+.button_primary a, .button_secondary a {
+text-decoration: none;
+color:#fff;
+font-style: bold;
+}
+
+.button_secondary {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    margin: 15px 0 0;
+}
+
+.password_link {
+    text-decoration: none;
+    color: #1877f2;
+    padding: 7px 0;
+    font-size: 14px;
+}
+
+.paragraph {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-top: 0;
+}
+
+.footer {
+    border-top: none;
+color: #1c1e21;
+font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: normal;
+padding-top: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: bold;
+    color:black;
+    margin-left: 70px;
+}
